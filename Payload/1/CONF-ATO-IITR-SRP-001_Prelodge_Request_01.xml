@@ -1,0 +1,538 @@
+
+<xbrli:xbrl xsi:schemaLocation="http://xbrl.org/2006/xbrldi http://www.xbrl.org/2006/xbrldi-2006.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:iitr.0003.lodge.req.02.00="http://sbr.gov.au/rprt/ato/iitr/iitr.0003.lodge.request.02.00.report" xmlns:bafpr1.02.23="http://sbr.gov.au/icls/baf/bafpr/bafpr1.02.23.data" xmlns:dtyp.02.12="http://sbr.gov.au/fdtn/sbr.02.12.dtyp" xmlns:rvctc4.02.04="http://sbr.gov.au/icls/rvc/rvctc/rvctc4.02.04.data" xmlns:bafot.02.00="http://sbr.gov.au/icls/baf/bafot/bafot.02.00.data" xmlns:SqNumFiveDim.02.00="http://sbr.gov.au/dims/SqNumFiveDim.02.00.dims" xmlns:pyin.02.23="http://sbr.gov.au/icls/py/pyin/pyin.02.23.data" xmlns:bafpr3.02.20="http://sbr.gov.au/icls/baf/bafpr/bafpr3.02.20.data" xmlns:dtyp.02.06="http://sbr.gov.au/fdtn/sbr.02.06.dtyp" xmlns:CarSqNumDim.02.00="http://sbr.gov.au/dims/CarSqNumDim.02.00.dims" xmlns:rvctc4.02.08="http://sbr.gov.au/icls/rvc/rvctc/rvctc4.02.08.data" xmlns:dtyp.02.16="http://sbr.gov.au/fdtn/sbr.02.16.dtyp" xmlns:bafpr3.02.14="http://sbr.gov.au/icls/baf/bafpr/bafpr3.02.14.data" xmlns:rvctc3.02.16="http://sbr.gov.au/icls/rvc/rvctc/rvctc3.02.16.data" xmlns:gfati.02.06="http://sbr.gov.au/icls/gfa/gfati/gfati.02.06.data" xmlns:SqNumSevenDim.02.00="http://sbr.gov.au/dims/SqNumSevenDim.02.00.dims" xmlns:bafpr3.02.18="http://sbr.gov.au/icls/baf/bafpr/bafpr3.02.18.data" xmlns:rvctc3.02.02="http://sbr.gov.au/icls/rvc/rvctc/rvctc3.02.02.data" xmlns:gfapc.02.02="http://sbr.gov.au/icls/gfa/gfapc/gfapc.02.02.data" xmlns:emsup.02.19="http://sbr.gov.au/icls/em/emsup/emsup.02.19.data" xmlns:rvctc2.02.14="http://sbr.gov.au/icls/rvc/rvctc/rvctc2.02.14.data" xmlns:SqNumTwoDim.02.00="http://sbr.gov.au/dims/SqNumTwoDim.02.00.dims" xmlns:SqNumTenDim.02.00="http://sbr.gov.au/dims/SqNumTenDim.02.00.dims" xmlns:bafpr2.02.06="http://sbr.gov.au/icls/baf/bafpr/bafpr2.02.06.data" xmlns:bafpr2.02.16="http://sbr.gov.au/icls/baf/bafpr/bafpr2.02.16.data" xmlns:IndustryProductionType.02.00="http://sbr.gov.au/dims/IndustryProductionType.02.00.dims" xmlns:rvctc2.02.00="http://sbr.gov.au/icls/rvc/rvctc/rvctc2.02.00.data" xmlns:lrla.02.00="http://sbr.gov.au/icls/lr/lrla/lrla.02.00.data" xmlns:ETPSqNumDim.02.00="http://sbr.gov.au/dims/ETPSqNumDim.02.00.dims" xmlns:bafpr2.02.02="http://sbr.gov.au/icls/baf/bafpr/bafpr2.02.02.data" xmlns:dtyp.02.33="http://sbr.gov.au/fdtn/sbr.02.33.dtyp" xmlns:dtyp.02.27="http://sbr.gov.au/fdtn/sbr.02.27.dtyp" xmlns:SqNumDim.02.01="http://sbr.gov.au/dims/SqNumDim.02.01.dims" xmlns:rvctc1.02.16="http://sbr.gov.au/icls/rvc/rvctc/rvctc1.02.16.data" xmlns:LossSqNumDim.02.00="http://sbr.gov.au/dims/LossSqNumDim.02.00.dims" xmlns:pyde.02.14="http://sbr.gov.au/icls/py/pyde/pyde.02.14.data" xmlns:dtyp.02.03="http://sbr.gov.au/fdtn/sbr.02.03.dtyp" xmlns:dtyp.02.13="http://sbr.gov.au/fdtn/sbr.02.13.dtyp" xmlns:bafpr3.02.11="http://sbr.gov.au/icls/baf/bafpr/bafpr3.02.11.data" xmlns:bafpr1.02.00="http://sbr.gov.au/icls/baf/bafpr/bafpr1.02.00.data" xmlns:PHISqNumDim.02.00="http://sbr.gov.au/dims/PHISqNumDim.02.00.dims" xmlns:dtyp.02.07="http://sbr.gov.au/fdtn/sbr.02.07.dtyp" xmlns:pyde.02.18="http://sbr.gov.au/icls/py/pyde/pyde.02.18.data" xmlns:bafpr1.02.28="http://sbr.gov.au/icls/baf/bafpr/bafpr1.02.28.data" xmlns:pyin.02.08="http://sbr.gov.au/icls/py/pyin/pyin.02.08.data" xmlns:pyde.02.00="http://sbr.gov.au/icls/py/pyde/pyde.02.00.data" xmlns:EDSqNumDim.02.00="http://sbr.gov.au/dims/EDSqNumDim.02.00.dims" xmlns:CSSqNumDim.02.00="http://sbr.gov.au/dims/CSSqNumDim.02.00.dims" xmlns:pyin.02.00="http://sbr.gov.au/icls/py/pyin/pyin.02.00.data" xmlns:gfati.02.07="http://sbr.gov.au/icls/gfa/gfati/gfati.02.07.data" xmlns:bafpr1.02.04="http://sbr.gov.au/icls/baf/bafpr/bafpr1.02.04.data" xmlns:pyin.02.28="http://sbr.gov.au/icls/py/pyin/pyin.02.28.data" xmlns:OTHSqNumDim.02.00="http://sbr.gov.au/dims/OTHSqNumDim.02.00.dims" xmlns:iitr.0003.prv.02.00="http://sbr.gov.au/rprt/ato/iitr/iitr.0003.private.02.00.module" xmlns:bafpr3.02.19="http://sbr.gov.au/icls/baf/bafpr/bafpr3.02.19.data" xmlns:rvctc2.02.11="http://sbr.gov.au/icls/rvc/rvctc/rvctc2.02.11.data" xmlns:pyde.02.08="http://sbr.gov.au/icls/py/pyde/pyde.02.08.data" xmlns:emsup.02.02="http://sbr.gov.au/icls/em/emsup/emsup.02.02.data" xmlns:rvctc2.02.15="http://sbr.gov.au/icls/rvc/rvctc/rvctc2.02.15.data" xmlns:TrvlSqNumDim.02.00="http://sbr.gov.au/dims/TrvlSqNumDim.02.00.dims" xmlns:dtyp.02.20="http://sbr.gov.au/fdtn/sbr.02.20.dtyp" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:SqNumElevenDim.02.00="http://sbr.gov.au/dims/SqNumElevenDim.02.00.dims" xmlns:dtyp.02.24="http://sbr.gov.au/fdtn/sbr.02.24.dtyp" xmlns:bafpo7.02.18="http://sbr.gov.au/icls/baf/bafpo/bafpo7.02.18.data" xmlns:pyde.02.11="http://sbr.gov.au/icls/py/pyde/pyde.02.11.data" xmlns:dtyp.02.00="http://sbr.gov.au/fdtn/sbr.02.00.dtyp" xmlns:IncSqNumDim.02.00="http://sbr.gov.au/dims/IncSqNumDim.02.00.dims" xmlns:dtyp.02.28="http://sbr.gov.au/fdtn/sbr.02.28.dtyp" xmlns:lrla.02.05="http://sbr.gov.au/icls/lr/lrla/lrla.02.05.data" xmlns:ref="http://www.xbrl.org/2006/ref" xmlns:rvctc4.02.02="http://sbr.gov.au/icls/rvc/rvctc/rvctc4.02.02.data" xmlns:pyde.02.21="http://sbr.gov.au/icls/py/pyde/pyde.02.21.data" xmlns:FinYearDim.02.01="http://sbr.gov.au/dims/FinYearDim.02.01.dims" xmlns:SqNumNineDim.02.00="http://sbr.gov.au/dims/SqNumNineDim.02.00.dims" xmlns:rvctc1.02.17="http://sbr.gov.au/icls/rvc/rvctc/rvctc1.02.17.data" xmlns:gfati.02.00="http://sbr.gov.au/icls/gfa/gfati/gfati.02.00.data" xmlns:dtyp.02.04="http://sbr.gov.au/fdtn/sbr.02.04.dtyp" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:bafpr3.02.02="http://sbr.gov.au/icls/baf/bafpr/bafpr3.02.02.data" xmlns:pyde.02.25="http://sbr.gov.au/icls/py/pyde/pyde.02.25.data" xmlns:dtyp.02.14="http://sbr.gov.au/fdtn/sbr.02.14.dtyp" xmlns:GiftDonSeqNum.02.00="http://sbr.gov.au/dims/GiftDonSeqNum.02.00.dims" xmlns:rvctc1.02.03="http://sbr.gov.au/icls/rvc/rvctc/rvctc1.02.03.data" xmlns:dtyp.02.08="http://sbr.gov.au/fdtn/sbr.02.08.dtyp" xmlns:OTHWRSqNumDim.02.00="http://sbr.gov.au/dims/OTHWRSqNumDim.02.00.dims" xmlns:SqNumFourDim.02.00="http://sbr.gov.au/dims/SqNumFourDim.02.00.dims" xmlns:pyde.02.01="http://sbr.gov.au/icls/py/pyde/pyde.02.01.data" xmlns:dtyp.02.18="http://sbr.gov.au/fdtn/sbr.02.18.dtyp" xmlns:tech.01.02="http://sbr.gov.au/fdtn/sbr.01.02.tech" xmlns:rvctc3.02.00="http://sbr.gov.au/icls/rvc/rvctc/rvctc3.02.00.data" xmlns:bafpr1.02.05="http://sbr.gov.au/icls/baf/bafpr/bafpr1.02.05.data" xmlns:pyin.02.29="http://sbr.gov.au/icls/py/pyin/pyin.02.29.data" xmlns:pyde.02.05="http://sbr.gov.au/icls/py/pyde/pyde.02.05.data" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:WrkrCtgryDscrptn.02.00="http://sbr.gov.au/dims/WrkrCtgryDscrptn.02.00.dims" xmlns:gfapc.02.04="http://sbr.gov.au/icls/gfa/gfapc/gfapc.02.04.data" xmlns:bafpr2.02.20="http://sbr.gov.au/icls/baf/bafpr/bafpr2.02.20.data" xmlns:emsup.02.03="http://sbr.gov.au/icls/em/emsup/emsup.02.03.data" xmlns:RprtPyType.02.13="http://sbr.gov.au/dims/RprtPyType.02.13.dims" xmlns:pyid.02.00="http://sbr.gov.au/icls/py/pyid/pyid.02.00.data" xmlns:cssup.02.00="http://sbr.gov.au/icls/cs/cssup/cssup.02.00.data" xmlns:dtyp.02.21="http://sbr.gov.au/fdtn/sbr.02.21.dtyp" xmlns:bafpr2.02.00="http://sbr.gov.au/icls/baf/bafpr/bafpr2.02.00.data" xmlns:dtyp.02.31="http://sbr.gov.au/fdtn/sbr.02.31.dtyp" xmlns:SqNumThreeDim.02.00="http://sbr.gov.au/dims/SqNumThreeDim.02.00.dims" xmlns:bafpr2.02.04="http://sbr.gov.au/icls/baf/bafpr/bafpr2.02.04.data" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:dtyp.02.35="http://sbr.gov.au/fdtn/sbr.02.35.dtyp" xmlns:bafpr1.02.12="http://sbr.gov.au/icls/baf/bafpr/bafpr1.02.12.data" xmlns:dtyp.02.29="http://sbr.gov.au/fdtn/sbr.02.29.dtyp" xmlns:pyde.02.22="http://sbr.gov.au/icls/py/pyde/pyde.02.22.data" xmlns:rvctc4.02.03="http://sbr.gov.au/icls/rvc/rvctc/rvctc4.02.03.data" xmlns:SprConSqNumDim.02.00="http://sbr.gov.au/dims/SprConSqNumDim.02.00.dims" xmlns:rvctc3.02.11="http://sbr.gov.au/icls/rvc/rvctc/rvctc3.02.11.data" xmlns:rvctc1.02.18="http://sbr.gov.au/icls/rvc/rvctc/rvctc1.02.18.data" xmlns:rvctc1.02.00="http://sbr.gov.au/icls/rvc/rvctc/rvctc1.02.00.data" xmlns:bafpo1.02.23="http://sbr.gov.au/icls/baf/bafpo/bafpo1.02.23.data" xmlns:bafpr3.02.03="http://sbr.gov.au/icls/baf/bafpr/bafpr3.02.03.data" xmlns:SprLSPaySqNumDim.02.00="http://sbr.gov.au/dims/SprLSPaySqNumDim.02.00.dims" xmlns:dtyp.02.15="http://sbr.gov.au/fdtn/sbr.02.15.dtyp" xmlns:bafpr1.02.02="http://sbr.gov.au/icls/baf/bafpr/bafpr1.02.02.data" xmlns:gfati.02.05="http://sbr.gov.au/icls/gfa/gfati/gfati.02.05.data" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dtyp.02.09="http://sbr.gov.au/fdtn/sbr.02.09.dtyp" xmlns:MangTaxAffSeqNum.02.00="http://sbr.gov.au/dims/MangTaxAffSeqNum.02.00.dims" xmlns:dtyp.02.19="http://sbr.gov.au/fdtn/sbr.02.19.dtyp" xmlns:tech.01.03="http://sbr.gov.au/fdtn/sbr.01.03.tech" xmlns:rvctc3.02.19="http://sbr.gov.au/icls/rvc/rvctc/rvctc3.02.19.data" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:bafpo1.02.13="http://sbr.gov.au/icls/baf/bafpo/bafpo1.02.13.data" xmlns:gfapc.02.01="http://sbr.gov.au/icls/gfa/gfapc/gfapc.02.01.data" xmlns:TelUsgDim.02.00="http://sbr.gov.au/dims/TelUsgDim.02.00.dims" xmlns:SqNumEightDim.02.00="http://sbr.gov.au/dims/SqNumEightDim.02.00.dims" xmlns:SqNumSixDim.02.00="http://sbr.gov.au/dims/SqNumSixDim.02.00.dims" xmlns:AddUsgDim.02.00="http://sbr.gov.au/dims/AddUsgDim.02.00.dims" xmlns:bafpr2.02.09="http://sbr.gov.au/icls/baf/bafpr/bafpr2.02.09.data" xmlns:EmpLumpPaySqNumDim.02.00="http://sbr.gov.au/dims/EmpLumpPaySqNumDim.02.00.dims" xmlns:emsup.02.08="http://sbr.gov.au/icls/em/emsup/emsup.02.08.data" xmlns:lrla.02.17="http://sbr.gov.au/icls/lr/lrla/lrla.02.17.data" xmlns:dtyp.02.22="http://sbr.gov.au/fdtn/sbr.02.22.dtyp" xmlns:SWSqNumDim.02.00="http://sbr.gov.au/dims/SWSqNumDim.02.00.dims" xmlns:dtyp.02.26="http://sbr.gov.au/fdtn/sbr.02.26.dtyp" xmlns:pyid.02.09="http://sbr.gov.au/icls/py/pyid/pyid.02.09.data" xmlns:rvctc4.02.00="http://sbr.gov.au/icls/rvc/rvctc/rvctc4.02.00.data" xmlns:bafpr1.02.13="http://sbr.gov.au/icls/baf/bafpr/bafpr1.02.13.data" xmlns:bafpo7.02.02="http://sbr.gov.au/icls/baf/bafpo/bafpo7.02.02.data" xmlns:DeclarationType.02.00="http://sbr.gov.au/dims/DeclarationType.02.00.dims">
+  <link:schemaRef xlink:type="simple" xlink:href="http://sbr.gov.au/taxonomy/sbr_au_reports/ato/iitr/iitr_0003/iitr.0003.lodge.request.02.00.report.xsd"/>
+               <xbrli:context id="Context_Duration_ReportingParty">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.ato.gov.au/tfn">31781647</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="RprtPyType.02.13:ReportPartyTypeDimension">RprtPyType.02.13:ReportingParty</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2015-07-01</xbrli:startDate>
+      <xbrli:endDate>2016-06-30</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+      <xbrli:context id="RP.Partnership">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.ato.gov.au/tfn">31781647</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="RprtPyType.02.13:ReportPartyTypeDimension">RprtPyType.02.13:ReportingParty</xbrldi:explicitMember>
+        <xbrldi:explicitMember dimension="RprtPyType.02.13:SecondaryPartyTypeDimension">RprtPyType.02.13:Partnership</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2015-07-01</xbrli:startDate>
+      <xbrli:endDate>2016-06-30</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="RP.Trust">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.ato.gov.au/tfn">31781647</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="RprtPyType.02.13:ReportPartyTypeDimension">RprtPyType.02.13:ReportingParty</xbrldi:explicitMember>
+        <xbrldi:explicitMember dimension="RprtPyType.02.13:SecondaryPartyTypeDimension">RprtPyType.02.13:Trust</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2015-07-01</xbrli:startDate>
+      <xbrli:endDate>2016-06-30</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="RP.PrimaryProduction">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.ato.gov.au/tfn">31781647</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="RprtPyType.02.13:ReportPartyTypeDimension">RprtPyType.02.13:ReportingParty</xbrldi:explicitMember>
+        <xbrldi:explicitMember dimension="IndustryProductionType.02.00:IndustryProductionTypeDimension">IndustryProductionType.02.00:PrimaryProduction</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2015-07-01</xbrli:startDate>
+      <xbrli:endDate>2016-06-30</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="Context_Duration_TrueAndCorrect_Intermediary">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.abr.gov.au/abn">78330347529</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="DeclarationType.02.00:DeclarationTypeDimension">DeclarationType.02.00:TrueAndCorrect</xbrldi:explicitMember>
+        <xbrldi:explicitMember dimension="RprtPyType.02.13:ReportPartyTypeDimension">RprtPyType.02.13:Intermediary</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2015-07-01</xbrli:startDate>
+      <xbrli:endDate>2016-06-30</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="Context_Instant_ReportingParty">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.ato.gov.au/tfn">31781647</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="RprtPyType.02.13:ReportPartyTypeDimension">RprtPyType.02.13:ReportingParty</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2015-07-01</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="Context_Duration_POS_ReportingParty">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.ato.gov.au/tfn">31781647</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="AddUsgDim.02.00:AddressUsageDimension">AddUsgDim.02.00:POS</xbrldi:explicitMember>
+        <xbrldi:explicitMember dimension="RprtPyType.02.13:ReportPartyTypeDimension">RprtPyType.02.13:ReportingParty</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2015-07-01</xbrli:startDate>
+      <xbrli:endDate>2016-06-30</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="Context_Duration_RES_ReportingParty">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.ato.gov.au/tfn">31781647</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="AddUsgDim.02.00:AddressUsageDimension">AddUsgDim.02.00:RES</xbrldi:explicitMember>
+        <xbrldi:explicitMember dimension="RprtPyType.02.13:ReportPartyTypeDimension">RprtPyType.02.13:ReportingParty</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2015-07-01</xbrli:startDate>
+      <xbrli:endDate>2016-06-30</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="Context_Duration_ReportingParty_Spouse">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.ato.gov.au/tfn">31781647</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="RprtPyType.02.13:ReportPartyTypeDimension">RprtPyType.02.13:ReportingParty</xbrldi:explicitMember>
+        <xbrldi:explicitMember dimension="RprtPyType.02.13:SecondaryPartyTypeDimension">RprtPyType.02.13:Spouse</xbrldi:explicitMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2015-07-01</xbrli:startDate>
+      <xbrli:endDate>2016-06-30</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  
+  <xbrli:context id="Context_Duration_ReportingParty_PHISeqDim">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.ato.gov.au/tfn">31781647</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="RprtPyType.02.13:ReportPartyTypeDimension">RprtPyType.02.13:ReportingParty</xbrldi:explicitMember>
+        <xbrldi:typedMember dimension="PHISqNumDim.02.00:PrivateHealthInsuranceSequenceDimension">
+          <PHISqNumDim.02.00:PrivateHealthInsuranceSequenceContainer>1</PHISqNumDim.02.00:PrivateHealthInsuranceSequenceContainer>
+        </xbrldi:typedMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2015-07-01</xbrli:startDate>
+      <xbrli:endDate>2016-06-30</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  
+  <!-- REPORTING PARTY SALARY AND WAGES SEQUENCE DIMENSION CONTEXT -->
+  <xbrli:context id="Context_Duration_ReportingParty_SWSqNumDim_1">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.ato.gov.au/tfn">31781647</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="RprtPyType.02.13:ReportPartyTypeDimension">RprtPyType.02.13:ReportingParty</xbrldi:explicitMember>
+        <xbrldi:typedMember dimension="SWSqNumDim.02.00:SalaryAndWagesSequenceDimension">
+          <SWSqNumDim.02.00:SalaryAndWagesSequenceContainer>1</SWSqNumDim.02.00:SalaryAndWagesSequenceContainer>
+        </xbrldi:typedMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2015-07-01</xbrli:startDate>
+      <xbrli:endDate>2016-06-30</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  
+  <!-- REPORTING PARTY EMPLOYEE LUMP SUM PAYMENT SEQUENCE DIMENSION CONTEXT -->
+  <xbrli:context id="Context_Duration_ReportingParty_ELSPSqNum_1">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.ato.gov.au/tfn">31781647</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="RprtPyType.02.13:ReportPartyTypeDimension">RprtPyType.02.13:ReportingParty</xbrldi:explicitMember>
+        <xbrldi:typedMember dimension="EmpLumpPaySqNumDim.02.00:EmployerLumpSumPaymentsSequenceDimension">
+          <EmpLumpPaySqNumDim.02.00:EmployerLumpSumPaymentsSequenceContainer>1</EmpLumpPaySqNumDim.02.00:EmployerLumpSumPaymentsSequenceContainer>
+        </xbrldi:typedMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2015-07-01</xbrli:startDate>
+      <xbrli:endDate>2016-06-30</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+ 
+  <!-- REPORTING PARTY LOSS SEQUENCE DIMENSION CONTEXT -->
+  <xbrli:context id="Context_Duration_ReportingParty_LOSSSqNum_1">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.ato.gov.au/tfn">31781647</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="RprtPyType.02.13:ReportPartyTypeDimension">RprtPyType.02.13:ReportingParty</xbrldi:explicitMember>
+        <xbrldi:typedMember dimension="LossSqNumDim.02.00:LossesSequenceDimension">
+          <LossSqNumDim.02.00:LossesSequenceContainer>1</LossSqNumDim.02.00:LossesSequenceContainer>
+        </xbrldi:typedMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+     <xbrli:startDate>2015-07-01</xbrli:startDate>
+      <xbrli:endDate>2016-06-30</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+
+  <xbrli:context id="Context_Duration_ReportingParty_LOSSSqNum_2">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.ato.gov.au/tfn">31781647</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="RprtPyType.02.13:ReportPartyTypeDimension">RprtPyType.02.13:ReportingParty</xbrldi:explicitMember>
+        <xbrldi:typedMember dimension="LossSqNumDim.02.00:LossesSequenceDimension">
+          <LossSqNumDim.02.00:LossesSequenceContainer>2</LossSqNumDim.02.00:LossesSequenceContainer>
+        </xbrldi:typedMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+     <xbrli:startDate>2015-07-01</xbrli:startDate>
+      <xbrli:endDate>2016-06-30</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  
+ <!-- REPORTING PARTY OTHER SEQUENCE DIMENSION CONTEXT -->
+  <xbrli:context id="Context_Duration_ReportingParty_OTHSqNum_1">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.ato.gov.au/tfn">31781647</xbrli:identifier>
+      <xbrli:segment>
+        <xbrldi:explicitMember dimension="RprtPyType.02.13:ReportPartyTypeDimension">RprtPyType.02.13:ReportingParty</xbrldi:explicitMember>
+        <xbrldi:typedMember dimension="OTHSqNumDim.02.00:OtherSequenceDimension">
+          <OTHSqNumDim.02.00:OtherSequenceContainer>1</OTHSqNumDim.02.00:OtherSequenceContainer>
+        </xbrldi:typedMember>
+      </xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2015-07-01</xbrli:startDate>
+      <xbrli:endDate>2016-06-30</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+    <xbrli:unit id="u1">
+    <xbrli:measure>iso4217:AUD</xbrli:measure>
+  </xbrli:unit>
+  <xbrli:unit id="u2">
+    <xbrli:measure>xbrli:pure</xbrli:measure>
+  </xbrli:unit>
+  <!-- General fields 2_1 -->
+  
+ <!-- Reporting Party -->
+   <pyin.02.00:Report.TargetFinancial.Year contextRef="Context_Duration_ReportingParty">2016</pyin.02.00:Report.TargetFinancial.Year>
+   <pyde.02.25:Residency.TaxPurposesPersonStatus.Indicator contextRef="Context_Duration_ReportingParty">true</pyde.02.25:Residency.TaxPurposesPersonStatus.Indicator>
+  <pyde.02.00:Party.ChangeName.Indicator contextRef="Context_Duration_ReportingParty">false</pyde.02.00:Party.ChangeName.Indicator>
+ <bafot.02.00:RegulatoryDisclosures.GeneralInformationAboutFinancialStatements.Text contextRef="Context_Duration_ReportingParty">valid reason</bafot.02.00:RegulatoryDisclosures.GeneralInformationAboutFinancialStatements.Text>
+  
+  <pyin.02.28:Lodgment.FinalReturn.Indicator contextRef="Context_Duration_ReportingParty">false</pyin.02.28:Lodgment.FinalReturn.Indicator>
+  <pyde.02.00:PersonNameDetails.Title.Text contextRef="Context_Duration_ReportingParty">MR</pyde.02.00:PersonNameDetails.Title.Text>
+  <pyde.02.00:PersonNameDetails.FamilyName.Text contextRef="Context_Duration_ReportingParty">Smith</pyde.02.00:PersonNameDetails.FamilyName.Text>
+ <pyde.02.00:PersonNameDetails.GivenName.Text contextRef="Context_Duration_ReportingParty">John</pyde.02.00:PersonNameDetails.GivenName.Text>
+  <pyde.02.00:PersonDemographicDetails.Birth.Date contextRef="Context_Duration_ReportingParty">1957-04-15</pyde.02.00:PersonDemographicDetails.Birth.Date>
+  <pyde.02.21:ElectronicContact.Telephone.Mobile.Number contextRef="Context_Duration_ReportingParty">0438030568</pyde.02.21:ElectronicContact.Telephone.Mobile.Number>
+   <pyde.02.00:ElectronicContact.Telephone.Area.Code contextRef="Context_Duration_ReportingParty">03</pyde.02.00:ElectronicContact.Telephone.Area.Code>
+  <pyde.02.00:ElectronicContact.Telephone.Minimal.Number contextRef="Context_Duration_ReportingParty">53673900</pyde.02.00:ElectronicContact.Telephone.Minimal.Number>
+  <pyde.02.00:ElectronicContact.ElectronicMail.Address.Text contextRef="Context_Duration_ReportingParty">johnsmith@au1.hotmail.com</pyde.02.00:ElectronicContact.ElectronicMail.Address.Text>
+  <pyid.02.00:FinancialInstitutionAccount.BankStateBranch.Number contextRef="Context_Duration_ReportingParty">656812</pyid.02.00:FinancialInstitutionAccount.BankStateBranch.Number>
+  <pyid.02.00:FinancialInstitutionAccount.FinancialInstitutionAccount.Number contextRef="Context_Duration_ReportingParty">8236542</pyid.02.00:FinancialInstitutionAccount.FinancialInstitutionAccount.Number>
+  <pyid.02.00:FinancialInstitutionAccount.FinancialInstitutionAccountName.Text contextRef="Context_Duration_ReportingParty">NAB</pyid.02.00:FinancialInstitutionAccount.FinancialInstitutionAccountName.Text>
+ 
+  <!-- Reporting Party - Postal Address -->
+  <pyde.02.00:AddressDetails.Line1.Text contextRef="Context_Duration_POS_ReportingParty">Unit 4</pyde.02.00:AddressDetails.Line1.Text>
+  <pyde.02.00:AddressDetails.Line2.Text contextRef="Context_Duration_POS_ReportingParty">100 Sturt Street</pyde.02.00:AddressDetails.Line2.Text>
+  <pyde.02.00:AddressDetails.LocalityName.Text contextRef="Context_Duration_POS_ReportingParty">Ballarat</pyde.02.00:AddressDetails.LocalityName.Text>
+  <pyde.02.00:AddressDetails.StateOrTerritory.Code contextRef="Context_Duration_POS_ReportingParty">VIC</pyde.02.00:AddressDetails.StateOrTerritory.Code>
+  <pyde.02.00:AddressDetails.Postcode.Text contextRef="Context_Duration_POS_ReportingParty">3350</pyde.02.00:AddressDetails.Postcode.Text>
+  <pyde.02.22:PersonDemographicDetails.AddressChange.Indicator contextRef="Context_Duration_POS_ReportingParty">false</pyde.02.22:PersonDemographicDetails.AddressChange.Indicator>
+  
+   <!-- Reporting Party - Residential Address -->
+   <pyde.02.00:AddressDetails.Line1.Text contextRef="Context_Duration_RES_ReportingParty">100 Geelong Road</pyde.02.00:AddressDetails.Line1.Text>
+   <pyde.02.00:AddressDetails.Line2.Text contextRef="Context_Duration_RES_ReportingParty"/>
+   <pyde.02.00:AddressDetails.LocalityName.Text contextRef="Context_Duration_RES_ReportingParty">Mt Helen</pyde.02.00:AddressDetails.LocalityName.Text>  
+   <pyde.02.00:AddressDetails.StateOrTerritory.Code contextRef="Context_Duration_RES_ReportingParty">VIC</pyde.02.00:AddressDetails.StateOrTerritory.Code> 
+   <pyde.02.00:AddressDetails.Postcode.Text contextRef="Context_Duration_RES_ReportingParty">3350</pyde.02.00:AddressDetails.Postcode.Text>  
+ 
+ <!--GENERAL :: Context_Duration_TrueAndCorrect_Intermediary-->
+  <pyid.02.00:Identifiers.TaxAgentClientReference.Text contextRef="Context_Duration_TrueAndCorrect_Intermediary">123456789</pyid.02.00:Identifiers.TaxAgentClientReference.Text>
+  <pyde.02.00:PersonUnstructuredName.FullName.Text contextRef="Context_Duration_TrueAndCorrect_Intermediary">Bill Rogers</pyde.02.00:PersonUnstructuredName.FullName.Text>
+  <pyde.02.18:PersonNameDetails.Position.Text contextRef="Context_Duration_TrueAndCorrect_Intermediary">Tax Accountant</pyde.02.18:PersonNameDetails.Position.Text>
+  <pyde.02.00:ElectronicContact.Telephone.Area.Code contextRef="Context_Duration_TrueAndCorrect_Intermediary">03</pyde.02.00:ElectronicContact.Telephone.Area.Code>
+  <pyde.02.00:ElectronicContact.Telephone.Minimal.Number contextRef="Context_Duration_TrueAndCorrect_Intermediary">87654321</pyde.02.00:ElectronicContact.Telephone.Minimal.Number>
+  <pyid.02.00:Identifiers.TaxAgentNumber.Identifier contextRef="Context_Duration_TrueAndCorrect_Intermediary">17801003</pyid.02.00:Identifiers.TaxAgentNumber.Identifier>
+  <pyin.02.29:Declaration.Signature.Date contextRef="Context_Duration_TrueAndCorrect_Intermediary">2015-02-02</pyin.02.29:Declaration.Signature.Date>
+  <pyin.02.28:Declaration.StatementAccepted.Indicator contextRef="Context_Duration_TrueAndCorrect_Intermediary">true</pyin.02.28:Declaration.StatementAccepted.Indicator>
+  <pyin.02.00:Declaration.SignatoryIdentifier.Text contextRef="Context_Duration_TrueAndCorrect_Intermediary">Signature</pyin.02.00:Declaration.SignatoryIdentifier.Text>
+  
+ 
+   <!--  Medicare fields - 2-2 Reporting Party  -->
+  <gfati.02.06:TaxOffsetClaim.SeniorAndPensioner.Code contextRef="Context_Duration_ReportingParty">Eligible spouse lived apart</gfati.02.06:TaxOffsetClaim.SeniorAndPensioner.Code>
+  <gfati.02.06:TaxOffsetClaim.Veteran.Code contextRef="Context_Duration_ReportingParty">Both</gfati.02.06:TaxOffsetClaim.Veteran.Code>
+  <gfati.02.00:TaxOffsetClaim.SuperannuationIncomeStream.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">100</gfati.02.00:TaxOffsetClaim.SuperannuationIncomeStream.Amount>
+  <gfati.02.06:TaxOffsetClaim.Total.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">377</gfati.02.06:TaxOffsetClaim.Total.Amount>
+  <rvctc2.02.14:IncomeTax.MedicareLevy.DependentChildrenAndStudents.Count decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u2">2</rvctc2.02.14:IncomeTax.MedicareLevy.DependentChildrenAndStudents.Count>
+  <rvctc2.02.15:IncomeTax.MedicareLevy.ExemptionFullDays.Count decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u2">100</rvctc2.02.15:IncomeTax.MedicareLevy.ExemptionFullDays.Count>
+  <rvctc2.02.00:IncomeTax.MedicareLevy.ExemptionFullDays.Code contextRef="Context_Duration_ReportingParty">C</rvctc2.02.00:IncomeTax.MedicareLevy.ExemptionFullDays.Code>
+  <rvctc2.02.15:IncomeTax.MedicareLevy.ExemptionHalfDays.Count decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u2">50</rvctc2.02.15:IncomeTax.MedicareLevy.ExemptionHalfDays.Count>
+  <rvctc2.02.14:IncomeTax.MedicareLevy.PrivateHospitalCoverWholePeriod.Indicator contextRef="Context_Duration_ReportingParty">false</rvctc2.02.14:IncomeTax.MedicareLevy.PrivateHospitalCoverWholePeriod.Indicator>
+  <rvctc2.02.14:IncomeTax.MedicareLevy.SurchargeExemptionDays.Count decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u2">366</rvctc2.02.14:IncomeTax.MedicareLevy.SurchargeExemptionDays.Count>
+  <emsup.02.08:SuperannuationContribution.SpouseContributions.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">200</emsup.02.08:SuperannuationContribution.SpouseContributions.Amount>
+  <gfati.02.06:TaxOffsetClaim.SuperannuationContributionSpouse.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">1</gfati.02.06:TaxOffsetClaim.SuperannuationContributionSpouse.Amount>
+  <gfati.02.07:TaxOffsetClaim.ZoneOrOverseasForces.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">45</gfati.02.07:TaxOffsetClaim.ZoneOrOverseasForces.Amount>
+  <gfati.02.06:TaxOffsetClaim.MedicalExpensesNet.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">750</gfati.02.06:TaxOffsetClaim.MedicalExpensesNet.Amount>
+  
+  <gfati.02.05:TaxOffsetClaim.LandcareAndWaterFacilityBroughtForward.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">75</gfati.02.05:TaxOffsetClaim.LandcareAndWaterFacilityBroughtForward.Amount>
+  <gfati.02.06:TaxOffsetClaim.NonRefundableOther.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">66</gfati.02.06:TaxOffsetClaim.NonRefundableOther.Amount>
+  <gfati.02.06:TaxOffsetClaim.NonRefundableOther.Code contextRef="Context_Duration_ReportingParty">Infrastructure Borrowings</gfati.02.06:TaxOffsetClaim.NonRefundableOther.Code>
+  <rvctc1.02.17:IncomeTax.TaxOffsetRefundableOther.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">90</rvctc1.02.17:IncomeTax.TaxOffsetRefundableOther.Amount>
+  <rvctc1.02.18:IncomeTax.TaxOffsetRefundableOther.Code contextRef="Context_Duration_ReportingParty">BeneficiarySpecialDisabilityTrust</rvctc1.02.18:IncomeTax.TaxOffsetRefundableOther.Code>
+
+   <!-- Reporting Party - PHISeqDim   -->
+  <pyid.02.09:Identifiers.HealthInsuranceProvider.Identifier contextRef="Context_Duration_ReportingParty_PHISeqDim">MBP</pyid.02.09:Identifiers.HealthInsuranceProvider.Identifier>
+  <pyid.02.09:Identifiers.HealthInsuranceMembership.Identifier contextRef="Context_Duration_ReportingParty_PHISeqDim">222561</pyid.02.09:Identifiers.HealthInsuranceMembership.Identifier>
+  <rvctc2.02.14:IncomeTax.HealthInsurance.RebatableComponent.Amount decimals="0" contextRef="Context_Duration_ReportingParty_PHISeqDim" unitRef="u1">2000</rvctc2.02.14:IncomeTax.HealthInsurance.RebatableComponent.Amount>
+  <rvctc2.02.14:IncomeTax.HealthInsurance.GovernmentRebateReceived.Amount decimals="0" contextRef="Context_Duration_ReportingParty_PHISeqDim" unitRef="u1">150</rvctc2.02.14:IncomeTax.HealthInsurance.GovernmentRebateReceived.Amount>
+  <rvctc2.02.14:IncomeTax.HealthInsurance.Benefit.Code contextRef="Context_Duration_ReportingParty_PHISeqDim">30</rvctc2.02.14:IncomeTax.HealthInsurance.Benefit.Code>
+  <rvctc2.02.14:IncomeTax.HealthInsurance.TaxClaim.Code contextRef="Context_Duration_ReportingParty_PHISeqDim">No dependants</rvctc2.02.14:IncomeTax.HealthInsurance.TaxClaim.Code>
+
+<!--INCOME :: Context_Duration_ReportingParty-->
+ <pyde.02.11:PersonDemographicDetails.Occupation.Description contextRef="Context_Duration_ReportingParty">Building and construction manager</pyde.02.11:PersonDemographicDetails.Occupation.Description>
+ <pyde.02.22:PersonDemographicDetails.Occupation.Code contextRef="Context_Duration_ReportingParty">133111</pyde.02.22:PersonDemographicDetails.Occupation.Code>
+ 
+  <!--INCOME :: Context_Duration_ReportingParty_SWSqNumDim_1 (SALARY & WAGES)-->
+  <pyid.02.00:Identifiers.AustralianBusinessNumber.Identifier contextRef="Context_Duration_ReportingParty_SWSqNumDim_1">14170020940</pyid.02.00:Identifiers.AustralianBusinessNumber.Identifier>
+  <rvctc2.02.14:IncomeTax.PayAsYouGoWithholding.CreditTaxWithheldSalaryOrWages.Amount decimals="0" contextRef="Context_Duration_ReportingParty_SWSqNumDim_1" unitRef="u1">10010</rvctc2.02.14:IncomeTax.PayAsYouGoWithholding.CreditTaxWithheldSalaryOrWages.Amount>
+  <bafpr1.02.23:Income.SalaryOrWages.Amount decimals="0" contextRef="Context_Duration_ReportingParty_SWSqNumDim_1" unitRef="u1">50000</bafpr1.02.23:Income.SalaryOrWages.Amount>
+  <rvctc2.02.14:IncomeTax.PayAsYouGoWithholding.CreditTaxWithheldAllowancesEarningsTipsDirectorsFees.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">0</rvctc2.02.14:IncomeTax.PayAsYouGoWithholding.CreditTaxWithheldAllowancesEarningsTipsDirectorsFees.Amount>
+  <bafpr1.02.23:Income.AllowancesEarningsTipsDirectorsFees.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">0</bafpr1.02.23:Income.AllowancesEarningsTipsDirectorsFees.Amount>  
+  
+    <!--INCOME :: Context_Duration_ReportingParty_ELSPSqNum_1 (EMPLOYEE LUMP SUM PAYMENT)-->  
+  <rvctc2.02.14:IncomeTax.PayAsYouGoWithholding.CreditTaxWithheldUnusedAnnualOrLongServiceLeavePaymentLumpSumA.Amount decimals="0" contextRef="Context_Duration_ReportingParty_ELSPSqNum_1" unitRef="u1">0</rvctc2.02.14:IncomeTax.PayAsYouGoWithholding.CreditTaxWithheldUnusedAnnualOrLongServiceLeavePaymentLumpSumA.Amount>
+  <bafpr1.02.23:Income.UnusedAnnualOrLongServiceLeavePaymentLumpSumA.Amount decimals="0" contextRef="Context_Duration_ReportingParty_ELSPSqNum_1" unitRef="u1">2</bafpr1.02.23:Income.UnusedAnnualOrLongServiceLeavePaymentLumpSumA.Amount>
+  <lrla.02.00:Remuneration.UnusedAnnualOrLongServiceLeavePaymentLumpSumA.Code contextRef="Context_Duration_ReportingParty_ELSPSqNum_1">R</lrla.02.00:Remuneration.UnusedAnnualOrLongServiceLeavePaymentLumpSumA.Code>
+  <rvctc2.02.14:IncomeTax.PayAsYouGoWithholding.CreditTaxWithheldUnusedAnnualOrLongServiceLeavePaymentLumpSumB.Amount decimals="0" contextRef="Context_Duration_ReportingParty_ELSPSqNum_1" unitRef="u1">2</rvctc2.02.14:IncomeTax.PayAsYouGoWithholding.CreditTaxWithheldUnusedAnnualOrLongServiceLeavePaymentLumpSumB.Amount>  
+  <bafpr1.02.23:Income.UnusedAnnualOrLongServiceLeavePaymentLumpSumB.Amount decimals="0" contextRef="Context_Duration_ReportingParty_ELSPSqNum_1" unitRef="u1">0</bafpr1.02.23:Income.UnusedAnnualOrLongServiceLeavePaymentLumpSumB.Amount> 
+ 
+  
+   <!--INCOME :: Context_Duration_ReportingParty-->
+   <rvctc2.02.14:IncomeTax.PayAsYouGoWithholding.CreditTaxWithheldAustralianGovernmentAllowancesAndPayments.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">0</rvctc2.02.14:IncomeTax.PayAsYouGoWithholding.CreditTaxWithheldAustralianGovernmentAllowancesAndPayments.Amount>
+  <bafpr1.02.23:Income.AustralianGovernmentAllowancesAndPayments.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">0</bafpr1.02.23:Income.AustralianGovernmentAllowancesAndPayments.Amount>
+  <rvctc2.02.14:IncomeTax.PayAsYouGoWithholding.CreditTaxWithheldAustralianGovernmentPensionsAndAllowances.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">0</rvctc2.02.14:IncomeTax.PayAsYouGoWithholding.CreditTaxWithheldAustralianGovernmentPensionsAndAllowances.Amount>
+  <gfapc.02.01:Pension.Total.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">0</gfapc.02.01:Pension.Total.Amount>
+  <rvctc2.02.14:IncomeTax.PayAsYouGoWithholding.CreditTaxWithheldAustralianAnnuitiesAndSuperannuationIncomeStream.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">0</rvctc2.02.14:IncomeTax.PayAsYouGoWithholding.CreditTaxWithheldAustralianAnnuitiesAndSuperannuationIncomeStream.Amount>
+   <bafpr3.02.19:Income.Superannuation.AnnuitiesAndSuperannuationTaxableComponentUntaxedElement.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">11</bafpr3.02.19:Income.Superannuation.AnnuitiesAndSuperannuationTaxableComponentUntaxedElement.Amount> 
+  <rvctc2.02.14:IncomeTax.PayAsYouGoWithholding.CreditTaxWithheldPersonalServicesIncome.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">0</rvctc2.02.14:IncomeTax.PayAsYouGoWithholding.CreditTaxWithheldPersonalServicesIncome.Amount>
+  <bafpr3.02.11:Income.PersonalServicesIncome.Total.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">0</bafpr3.02.11:Income.PersonalServicesIncome.Total.Amount>
+  <rvctc2.02.14:IncomeTax.PayAsYouGoWithholding.CreditTaxWithheld.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">10012</rvctc2.02.14:IncomeTax.PayAsYouGoWithholding.CreditTaxWithheld.Amount>
+  <bafpr2.02.02:Income.Interest.Gross.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">0</bafpr2.02.02:Income.Interest.Gross.Amount>
+  <rvctc1.02.16:IncomeTax.TFNAmountsWithheldFromGrossInterest.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">0</rvctc1.02.16:IncomeTax.TFNAmountsWithheldFromGrossInterest.Amount>
+  <bafpr1.02.05:Income.DividendsUnfranked.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">0</bafpr1.02.05:Income.DividendsUnfranked.Amount>  
+  <bafpr1.02.00:Income.DividendsFranked.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">0</bafpr1.02.00:Income.DividendsFranked.Amount>
+  <rvctc1.02.03:IncomeTax.FrankingCredits.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">0</rvctc1.02.03:IncomeTax.FrankingCredits.Amount>
+  <rvctc2.02.14:IncomeTax.PayAsYouGoWithholding.CreditTaxWithheldDividendsTFNNotQuoted.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">0.00</rvctc2.02.14:IncomeTax.PayAsYouGoWithholding.CreditTaxWithheldDividendsTFNNotQuoted.Amount>
+  <bafpr3.02.18:Income.EmployeeShareScheme.TaxUpfrontReducibleDiscount.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">0</bafpr3.02.18:Income.EmployeeShareScheme.TaxUpfrontReducibleDiscount.Amount>
+  <bafpr3.02.18:Income.EmployeeShareScheme.TaxUpfrontNonReducibleDiscount.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">0</bafpr3.02.18:Income.EmployeeShareScheme.TaxUpfrontNonReducibleDiscount.Amount>
+  <bafpr3.02.18:Income.EmployeeShareScheme.DeferralDiscount.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">0</bafpr3.02.18:Income.EmployeeShareScheme.DeferralDiscount.Amount>
+  <bafpr3.02.18:Income.EmployeeShareScheme.AcquiredBeforeJuly2009Discount.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">0</bafpr3.02.18:Income.EmployeeShareScheme.AcquiredBeforeJuly2009Discount.Amount>
+  <bafpr3.02.18:Income.EmployeeShareScheme.DiscountAssessable.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">0</bafpr3.02.18:Income.EmployeeShareScheme.DiscountAssessable.Amount>
+  <bafpr1.02.23:Income.Net.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">50000</bafpr1.02.23:Income.Net.Amount>
+  <bafpr1.02.23:Income.PartnershipPrimaryProductionShare.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">1</bafpr1.02.23:Income.PartnershipPrimaryProductionShare.Amount>
+  <bafpr1.02.23:Income.TrustPrimaryProductionNetShare.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">1</bafpr1.02.23:Income.TrustPrimaryProductionNetShare.Amount>
+ <bafpr1.02.23:Income.TrustPrimaryProductionNetShare.Code contextRef="Context_Duration_ReportingParty">Cash management unit trust</bafpr1.02.23:Income.TrustPrimaryProductionNetShare.Code>
+  <rvctc2.02.14:IncomeTax.Deduction.PartnershipsAndTrustPrimaryProductionShare.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">116</rvctc2.02.14:IncomeTax.Deduction.PartnershipsAndTrustPrimaryProductionShare.Amount>
+  <bafpr1.02.23:Income.PartnershipInvestmentLessForeignIncomeNonPrimaryProductionShare.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">0</bafpr1.02.23:Income.PartnershipInvestmentLessForeignIncomeNonPrimaryProductionShare.Amount>
+  <bafpr1.02.23:Income.PartnershipRentalNonPrimaryProductionShare.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">0</bafpr1.02.23:Income.PartnershipRentalNonPrimaryProductionShare.Amount>
+  <bafpr1.02.23:Income.PartnershipNonPrimaryProductionOtherShare.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">0</bafpr1.02.23:Income.PartnershipNonPrimaryProductionOtherShare.Amount>
+  <bafpr1.02.23:Income.TrustManagedInvestmentSchemeLessNetCapitalGainAndForeignIncomeNonPrimaryProductionShare.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">0</bafpr1.02.23:Income.TrustManagedInvestmentSchemeLessNetCapitalGainAndForeignIncomeNonPrimaryProductionShare.Amount>
+  <bafpr1.02.23:Income.TrustOtherNonPrimaryProductionShare.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">0</bafpr1.02.23:Income.TrustOtherNonPrimaryProductionShare.Amount>
+  <bafpr1.02.23:Income.TrustFrankedInvestmentNonPrimaryProductionShare.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">0</bafpr1.02.23:Income.TrustFrankedInvestmentNonPrimaryProductionShare.Amount>
+  <bafpr1.02.23:Income.TrustFrankedNonPrimaryProductionOtherShare.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">0</bafpr1.02.23:Income.TrustFrankedNonPrimaryProductionOtherShare.Amount>
+  <bafpr1.02.23:Expense.LandcareOperationsNonPrimaryProduction.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">0</bafpr1.02.23:Expense.LandcareOperationsNonPrimaryProduction.Amount>
+  <rvctc2.02.14:IncomeTax.Deduction.TrustExcludingCapitalGainsAndForeignIncomeNonPrimaryProduction.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">0</rvctc2.02.14:IncomeTax.Deduction.TrustExcludingCapitalGainsAndForeignIncomeNonPrimaryProduction.Amount>
+  <rvctc2.02.14:IncomeTax.Deduction.PartnershipExcludingForeignIncomeNonPrimaryProduction.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">0</rvctc2.02.14:IncomeTax.Deduction.PartnershipExcludingForeignIncomeNonPrimaryProduction.Amount>
+  <rvctc2.02.14:IncomeTax.Deduction.PartnershipRentalNonPrimaryProduction.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">0</rvctc2.02.14:IncomeTax.Deduction.PartnershipRentalNonPrimaryProduction.Amount>
+  <rvctc2.02.14:IncomeTax.Deduction.TrustsPartnershipsOtherAllowableNonPrimaryProduction.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">0</rvctc2.02.14:IncomeTax.Deduction.TrustsPartnershipsOtherAllowableNonPrimaryProduction.Amount>
+  <bafpr1.02.23:Income.RentalPropertyNonPrimaryProductionNet.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">0</bafpr1.02.23:Income.RentalPropertyNonPrimaryProductionNet.Amount>
+  <rvctc2.02.14:IncomeTax.PayAsYouGoWithholding.CreditTaxWithheldBusinessVoluntaryAgreement.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">0</rvctc2.02.14:IncomeTax.PayAsYouGoWithholding.CreditTaxWithheldBusinessVoluntaryAgreement.Amount>
+  <rvctc2.02.14:IncomeTax.PayAsYouGoWithholding.CreditTaxWithheldBusinessABNNotQuoted.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">0</rvctc2.02.14:IncomeTax.PayAsYouGoWithholding.CreditTaxWithheldBusinessABNNotQuoted.Amount>
+  <rvctc2.02.14:IncomeTax.PayAsYouGoWithholding.CreditTaxWithheldBusinessForeignResident.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">0</rvctc2.02.14:IncomeTax.PayAsYouGoWithholding.CreditTaxWithheldBusinessForeignResident.Amount>
+  <rvctc2.02.14:IncomeTax.PayAsYouGoWithholding.CreditTaxWithheldBusinessLabourHireOrOtherPayments.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">0</rvctc2.02.14:IncomeTax.PayAsYouGoWithholding.CreditTaxWithheldBusinessLabourHireOrOtherPayments.Amount>
+  <rvctc3.02.19:Tax.Losses.DeferredNonCommercialPartnershipInvestmentShare.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">999</rvctc3.02.19:Tax.Losses.DeferredNonCommercialPartnershipInvestmentShare.Amount>
+  <rvctc3.02.19:Tax.Losses.DeferredNonCommercialPartnershipRentalShare.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">1000</rvctc3.02.19:Tax.Losses.DeferredNonCommercialPartnershipRentalShare.Amount>
+  <rvctc3.02.19:Tax.Losses.DeferredNonCommercialPartnershipOtherShare.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">1000</rvctc3.02.19:Tax.Losses.DeferredNonCommercialPartnershipOtherShare.Amount>
+  <rvctc3.02.19:Tax.Losses.DeferredNonCommercialPartnershipShare.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">2999</rvctc3.02.19:Tax.Losses.DeferredNonCommercialPartnershipShare.Amount>
+  <rvctc3.02.19:Tax.Losses.DeferredNonCommercialSoleTraderInvestment.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">1</rvctc3.02.19:Tax.Losses.DeferredNonCommercialSoleTraderInvestment.Amount>
+  <rvctc3.02.19:Tax.Losses.DeferredNonCommercialSoleTraderRental.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">0</rvctc3.02.19:Tax.Losses.DeferredNonCommercialSoleTraderRental.Amount>
+  <rvctc3.02.19:Tax.Losses.DeferredNonCommercialSoleTraderOther.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">0</rvctc3.02.19:Tax.Losses.DeferredNonCommercialSoleTraderOther.Amount>
+  <rvctc3.02.19:Tax.Losses.DeferredNonCommercialSoleTrader.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">1</rvctc3.02.19:Tax.Losses.DeferredNonCommercialSoleTrader.Amount>  
+  <rvctc3.02.19:Tax.Losses.DeferredNonCommercialPrimaryProduction.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">100</rvctc3.02.19:Tax.Losses.DeferredNonCommercialPrimaryProduction.Amount>
+  <rvctc3.02.19:Tax.Losses.DeferredNonCommercialNonPrimaryProduction.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">2900</rvctc3.02.19:Tax.Losses.DeferredNonCommercialNonPrimaryProduction.Amount>
+  <rvctc3.02.00:CapitalGainsTax.Event.Indicator contextRef="Context_Duration_ReportingParty">false</rvctc3.02.00:CapitalGainsTax.Event.Indicator>
+  <rvctc3.02.11:CapitalGainsTax.ExemptionOrRolloverApplied.Indicator contextRef="Context_Duration_ReportingParty">false</rvctc3.02.11:CapitalGainsTax.ExemptionOrRolloverApplied.Indicator>                
+  <rvctc3.02.19:Capital.Gains.Net.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">0</rvctc3.02.19:Capital.Gains.Net.Amount>
+  <rvctc4.02.03:InternationalDealings.DirectOrIndirectOverseasInterest.Indicator contextRef="Context_Duration_ReportingParty">false</rvctc4.02.03:InternationalDealings.DirectOrIndirectOverseasInterest.Indicator>
+  <bafpr3.02.03:Income.InternationalDealings.AttributedForeignIncomeForeignTrustorControlledForeignCompanyorTransferorTrust.Indicator contextRef="Context_Duration_ReportingParty">false</bafpr3.02.03:Income.InternationalDealings.AttributedForeignIncomeForeignTrustorControlledForeignCompanyorTransferorTrust.Indicator>
+  <rvctc4.02.04:InternationalDealings.ForeignIncomeGross.Amount decimals="0" unitRef="u1" contextRef="Context_Duration_ReportingParty">0</rvctc4.02.04:InternationalDealings.ForeignIncomeGross.Amount>
+  <rvctc4.02.08:InternationalDealings.ForeignEmploymentIncomeOther.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">0</rvctc4.02.08:InternationalDealings.ForeignEmploymentIncomeOther.Amount>
+  <rvctc4.02.08:InternationalDealings.ForeignPensionOrAnnuityIncomeWithoutUndeductedPurchasePrice.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">0</rvctc4.02.08:InternationalDealings.ForeignPensionOrAnnuityIncomeWithoutUndeductedPurchasePrice.Amount>
+  <rvctc4.02.08:InternationalDealings.ForeignPensionOrAnnuityIncomeUndeductedPurchasePrice.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">0</rvctc4.02.08:InternationalDealings.ForeignPensionOrAnnuityIncomeUndeductedPurchasePrice.Amount>
+  <rvctc4.02.08:InternationalDealings.ForeignRent.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">0</rvctc4.02.08:InternationalDealings.ForeignRent.Amount>
+  <bafpr3.02.14:Income.InternationalDealings.Net.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">0</bafpr3.02.14:Income.InternationalDealings.Net.Amount>
+ <rvctc1.02.16:IncomeTax.FrankingCreditsNewZealand.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">0</rvctc1.02.16:IncomeTax.FrankingCreditsNewZealand.Amount>  
+  <rvctc4.02.08:InternationalDealings.AssetsLocatedOutsideAustralia.Indicator contextRef="Context_Duration_ReportingParty">false</rvctc4.02.08:InternationalDealings.AssetsLocatedOutsideAustralia.Indicator>
+  <rvctc2.02.00:IncomeTax.Deduction.RentalIncomeInterestDeductions.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">0</rvctc2.02.00:IncomeTax.Deduction.RentalIncomeInterestDeductions.Amount>
+  <rvctc2.02.00:IncomeTax.Deduction.CapitalWorksDeductions.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">0</rvctc2.02.00:IncomeTax.Deduction.CapitalWorksDeductions.Amount>
+  <rvctc2.02.00:IncomeTax.Deduction.RentalIncomeDeductionsOtherThanInterestAndCapitalWorks.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">0</rvctc2.02.00:IncomeTax.Deduction.RentalIncomeDeductionsOtherThanInterestAndCapitalWorks.Amount>
+  <rvctc1.02.00:IncomeTax.LifeInsuranceCompaniesAndFriendlySocietiesBonuses.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">0</rvctc1.02.00:IncomeTax.LifeInsuranceCompaniesAndFriendlySocietiesBonuses.Amount>
+  <bafpr1.02.23:Income.ForestryManagedInvestmentScheme.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">0</bafpr1.02.23:Income.ForestryManagedInvestmentScheme.Amount>  
+  <bafpr1.02.13:Income.PersonalServicesIncomeIncluded.Indicator contextRef="Context_Duration_ReportingParty">false</bafpr1.02.13:Income.PersonalServicesIncomeIncluded.Indicator>
+  <rvctc2.02.14:IncomeTax.PersonalServicesIncome.OneSourceBenchmark.Indicator contextRef="Context_Duration_ReportingParty">false</rvctc2.02.14:IncomeTax.PersonalServicesIncome.OneSourceBenchmark.Indicator>
+  <bafpr1.02.23:Income.BusinessPrimaryProductionNet.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">500</bafpr1.02.23:Income.BusinessPrimaryProductionNet.Amount>
+  <bafpr1.02.23:Income.BusinessNonPrimaryProductionNet.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">1000</bafpr1.02.23:Income.BusinessNonPrimaryProductionNet.Amount>
+  <rvctc3.02.19:Tax.Losses.BusinessDeferredNonCommercialLossPriorYearPrimaryProduction.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">500</rvctc3.02.19:Tax.Losses.BusinessDeferredNonCommercialLossPriorYearPrimaryProduction.Amount>
+  <rvctc3.02.19:Tax.Losses.BusinessDeferredNonCommercialLossPriorYearNonPrimaryProduction.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">1000</rvctc3.02.19:Tax.Losses.BusinessDeferredNonCommercialLossPriorYearNonPrimaryProduction.Amount>
+  
+ 
+ <!--INCOME TESTS :: Context_Duration_ReportingParty-->
+  <bafpr1.02.23:Income.FringeBenefitsReportable.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">0</bafpr1.02.23:Income.FringeBenefitsReportable.Amount>
+  <emsup.02.19:SuperannuationContribution.EmployerReportable.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">0</emsup.02.19:SuperannuationContribution.EmployerReportable.Amount>
+  <gfapc.02.04:Pension.TaxFree.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">0</gfapc.02.04:Pension.TaxFree.Amount>
+  <rvctc4.02.08:InternationalDealings.ForeignIncomeTarget.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">0</rvctc4.02.08:InternationalDealings.ForeignIncomeTarget.Amount>
+  <rvctc3.02.19:Tax.Losses.FinancialInvestmentNet.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">0</rvctc3.02.19:Tax.Losses.FinancialInvestmentNet.Amount>
+  <rvctc3.02.19:Tax.Losses.RentalPropertyNet.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">0</rvctc3.02.19:Tax.Losses.RentalPropertyNet.Amount>
+  <cssup.02.00:ChildSupport.Payment.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">0</cssup.02.00:ChildSupport.Payment.Amount>  
+  <pyde.02.22:PersonDemographicDetails.DependentChildren.Count decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u2">0</pyde.02.22:PersonDemographicDetails.DependentChildren.Count>
+  <bafpr1.02.23:Income.TaxableAdjusted.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">43835</bafpr1.02.23:Income.TaxableAdjusted.Amount>
+  <bafpr1.02.23:Income.Estimated.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">51532</bafpr1.02.23:Income.Estimated.Amount>
+  <bafpr1.02.23:Income.LowIncomeSuperannuationContributionEligible.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">51517</bafpr1.02.23:Income.LowIncomeSuperannuationContributionEligible.Amount>
+  <pyde.02.22:PersonDemographicDetails.SpouseFullYear.Indicator contextRef="Context_Duration_ReportingParty">true</pyde.02.22:PersonDemographicDetails.SpouseFullYear.Indicator>
+  <pyde.02.05:OrganisationDetails.MainIncomeActivity.Description contextRef="Context_Duration_ReportingParty">Description of main income</pyde.02.05:OrganisationDetails.MainIncomeActivity.Description>
+  <bafpr3.02.18:Income.PersonalServicesIncome.BusinessActivities.Count decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u2">1</bafpr3.02.18:Income.PersonalServicesIncome.BusinessActivities.Count>
+  <pyde.02.11:OrganisationDetails.ActivityEvent.Code contextRef="Context_Duration_ReportingParty">CommencedBusiness</pyde.02.11:OrganisationDetails.ActivityEvent.Code>
+  <pyid.02.00:Identifiers.AustralianBusinessNumber.Identifier contextRef="Context_Duration_ReportingParty">78330347529</pyid.02.00:Identifiers.AustralianBusinessNumber.Identifier>
+  <bafpr1.02.00:Income.InternetSales.Indicator contextRef="Context_Duration_ReportingParty">true</bafpr1.02.00:Income.InternetSales.Indicator>
+  <rvctc2.02.14:IncomeTax.Deduction.LowCostAssetDepreciation.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">0</rvctc2.02.14:IncomeTax.Deduction.LowCostAssetDepreciation.Amount>
+  <rvctc2.02.14:IncomeTax.Deduction.SmallBusinessPoolDepreciation.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">0</rvctc2.02.14:IncomeTax.Deduction.SmallBusinessPoolDepreciation.Amount>
+  <rvctc3.02.02:Elections.TradingStock.Indicator contextRef="Context_Duration_ReportingParty">true</rvctc3.02.02:Elections.TradingStock.Indicator>
+  <pyin.02.23:Report.CompletionHours.Number decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u2">999</pyin.02.23:Report.CompletionHours.Number>
+  
+  <!--INCOME TESTS :: Context_Duration_ReportingParty_Spouse-->
+  <pyde.02.00:PersonNameDetails.FamilyName.Text contextRef="Context_Duration_ReportingParty_Spouse">Smith</pyde.02.00:PersonNameDetails.FamilyName.Text>
+  <pyde.02.00:PersonNameDetails.GivenName.Text contextRef="Context_Duration_ReportingParty_Spouse">Mary</pyde.02.00:PersonNameDetails.GivenName.Text>
+  <pyde.02.00:PersonNameDetails.OtherGivenName.Text contextRef="Context_Duration_ReportingParty_Spouse">Jane</pyde.02.00:PersonNameDetails.OtherGivenName.Text>
+  <pyde.02.00:PersonDemographicDetails.Birth.Date contextRef="Context_Duration_ReportingParty_Spouse">1952-05-01</pyde.02.00:PersonDemographicDetails.Birth.Date>
+  <pyde.02.18:PersonDemographicDetails.Sex.Code contextRef="Context_Duration_ReportingParty_Spouse">2</pyde.02.18:PersonDemographicDetails.Sex.Code>
+  <pyde.02.00:PersonDemographicDetails.Deceased.Indicator contextRef="Context_Duration_ReportingParty_Spouse">true</pyde.02.00:PersonDemographicDetails.Deceased.Indicator>
+  <bafpr1.02.23:Income.Taxable.Amount decimals="0" contextRef="Context_Duration_ReportingParty_Spouse" unitRef="u1">1</bafpr1.02.23:Income.Taxable.Amount>
+  <rvctc1.02.16:IncomeTax.TrustIncomeNotIncludedInTaxableIncome.Amount decimals="0" contextRef="Context_Duration_ReportingParty_Spouse" unitRef="u1">0</rvctc1.02.16:IncomeTax.TrustIncomeNotIncludedInTaxableIncome.Amount>
+  <rvctc1.02.16:IncomeTax.FamilyTrustDistributionWhereTaxPaid.Amount decimals="0" contextRef="Context_Duration_ReportingParty_Spouse" unitRef="u1">0</rvctc1.02.16:IncomeTax.FamilyTrustDistributionWhereTaxPaid.Amount>
+  <bafpr1.02.23:Income.FringeBenefitsReportable.Amount decimals="0" contextRef="Context_Duration_ReportingParty_Spouse" unitRef="u1">0</bafpr1.02.23:Income.FringeBenefitsReportable.Amount>
+  <gfapc.02.01:Pension.Total.Amount decimals="0" contextRef="Context_Duration_ReportingParty_Spouse" unitRef="u1">0</gfapc.02.01:Pension.Total.Amount>
+  <gfapc.02.02:Pension.SpouseExempt.Amount decimals="0" contextRef="Context_Duration_ReportingParty_Spouse" unitRef="u1">1</gfapc.02.02:Pension.SpouseExempt.Amount>
+  <emsup.02.19:SuperannuationContribution.EmployerReportable.Amount decimals="0" contextRef="Context_Duration_ReportingParty_Spouse" unitRef="u1">0</emsup.02.19:SuperannuationContribution.EmployerReportable.Amount>
+  <gfapc.02.04:Pension.TaxFree.Amount decimals="0" contextRef="Context_Duration_ReportingParty_Spouse" unitRef="u1">1</gfapc.02.04:Pension.TaxFree.Amount>
+  <rvctc4.02.08:InternationalDealings.ForeignIncomeTarget.Amount decimals="0" contextRef="Context_Duration_ReportingParty_Spouse" unitRef="u1">0</rvctc4.02.08:InternationalDealings.ForeignIncomeTarget.Amount>
+  <rvctc3.02.19:Tax.Losses.InvestmentNet.Amount decimals="0" contextRef="Context_Duration_ReportingParty_Spouse" unitRef="u1">0</rvctc3.02.19:Tax.Losses.InvestmentNet.Amount>
+  <cssup.02.00:ChildSupport.Payment.Amount decimals="0" contextRef="Context_Duration_ReportingParty_Spouse" unitRef="u1">0</cssup.02.00:ChildSupport.Payment.Amount>
+  <emsup.02.19:SuperannuationPayment.BenefitLumpSumZeroTaxRate.Amount decimals="0" contextRef="Context_Duration_ReportingParty_Spouse" unitRef="u1">0</emsup.02.19:SuperannuationPayment.BenefitLumpSumZeroTaxRate.Amount>
+  <bafpr1.02.23:Income.TaxableAdjusted.Amount decimals="0" contextRef="Context_Duration_ReportingParty_Spouse" unitRef="u1">0</bafpr1.02.23:Income.TaxableAdjusted.Amount>
+
+  
+  <!--INCOME TESTS :: Context_Duration_ReportingParty_LOSSSqNum_1-->
+  <pyde.02.05:OrganisationDetails.MainIncomeActivity.Description contextRef="Context_Duration_ReportingParty_LOSSSqNum_1">Garden Supplies Retailing</pyde.02.05:OrganisationDetails.MainIncomeActivity.Description>
+  <pyde.02.14:OrganisationDetails.OrganisationIndustry2006Extended.Code contextRef="Context_Duration_ReportingParty_LOSSSqNum_1">42320</pyde.02.14:OrganisationDetails.OrganisationIndustry2006Extended.Code>
+  <pyde.02.22:OrganisationDetails.OrganisationType.Code contextRef="Context_Duration_ReportingParty_LOSSSqNum_1">006</pyde.02.22:OrganisationDetails.OrganisationType.Code>
+  <rvctc1.02.16:IncomeTax.LossesType.Code contextRef="Context_Duration_ReportingParty_LOSSSqNum_1">8</rvctc1.02.16:IncomeTax.LossesType.Code>
+  <rvctc3.02.19:Tax.Losses.PriorYearNonCommercial.Amount decimals="0" contextRef="Context_Duration_ReportingParty_LOSSSqNum_1" unitRef="u1">1</rvctc3.02.19:Tax.Losses.PriorYearNonCommercial.Amount>
+  <rvctc3.02.19:Tax.Losses.Net.Amount decimals="0" contextRef="Context_Duration_ReportingParty_LOSSSqNum_1" unitRef="u1">1500</rvctc3.02.19:Tax.Losses.Net.Amount>
+    
+
+  <!--INCOME TESTS :: Context_Duration_ReportingParty_LOSSSqNum_2-->
+  <pyde.02.05:OrganisationDetails.MainIncomeActivity.Description contextRef="Context_Duration_ReportingParty_LOSSSqNum_2">Scenic and Sightseeing Transport</pyde.02.05:OrganisationDetails.MainIncomeActivity.Description>
+  <pyde.02.14:OrganisationDetails.OrganisationIndustry2006Extended.Code contextRef="Context_Duration_ReportingParty_LOSSSqNum_2">50100</pyde.02.14:OrganisationDetails.OrganisationIndustry2006Extended.Code>
+  <pyde.02.22:OrganisationDetails.OrganisationType.Code contextRef="Context_Duration_ReportingParty_LOSSSqNum_2">161</pyde.02.22:OrganisationDetails.OrganisationType.Code>
+  <rvctc1.02.16:IncomeTax.LossesType.Code contextRef="Context_Duration_ReportingParty_LOSSSqNum_2">8</rvctc1.02.16:IncomeTax.LossesType.Code>
+  <rvctc3.02.19:Tax.Losses.PriorYearNonCommercial.Amount decimals="0" contextRef="Context_Duration_ReportingParty_LOSSSqNum_2" unitRef="u1">1</rvctc3.02.19:Tax.Losses.PriorYearNonCommercial.Amount>
+  <rvctc3.02.19:Tax.Losses.Net.Amount decimals="0" contextRef="Context_Duration_ReportingParty_LOSSSqNum_2" unitRef="u1">1500</rvctc3.02.19:Tax.Losses.Net.Amount>
+   
+  
+  <!--DEDUCTIONS :: Context_Duration_ReportingParty-->
+  <rvctc2.02.14:IncomeTax.Deduction.Car.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">620</rvctc2.02.14:IncomeTax.Deduction.Car.Amount>
+  <rvctc2.02.14:IncomeTax.Deduction.CarCalculationMethod.Code contextRef="Context_Duration_ReportingParty">Logbook</rvctc2.02.14:IncomeTax.Deduction.CarCalculationMethod.Code>
+  <rvctc2.02.14:IncomeTax.Deduction.Travel.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">20</rvctc2.02.14:IncomeTax.Deduction.Travel.Amount>
+  <rvctc2.02.14:IncomeTax.Deduction.Clothing.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">20</rvctc2.02.14:IncomeTax.Deduction.Clothing.Amount>
+  <rvctc2.02.14:IncomeTax.Deduction.ClothingType.Code contextRef="Context_Duration_ReportingParty">Non-compulsory work uniform</rvctc2.02.14:IncomeTax.Deduction.ClothingType.Code>
+  <rvctc2.02.14:IncomeTax.Deduction.EducationNet.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">260</rvctc2.02.14:IncomeTax.Deduction.EducationNet.Amount>
+  <rvctc2.02.14:IncomeTax.Deduction.EducationCircumstances.Code contextRef="Context_Duration_ReportingParty">Other circumstances</rvctc2.02.14:IncomeTax.Deduction.EducationCircumstances.Code>
+  <rvctc2.02.14:IncomeTax.Deduction.WorkRelatedOther.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">20</rvctc2.02.14:IncomeTax.Deduction.WorkRelatedOther.Amount>
+  <rvctc2.02.14:IncomeTax.Deduction.LowValuePoolFinancialInvestments.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">9</rvctc2.02.14:IncomeTax.Deduction.LowValuePoolFinancialInvestments.Amount>
+  <rvctc2.02.14:IncomeTax.Deduction.LowValuePoolRentalProperties.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">1</rvctc2.02.14:IncomeTax.Deduction.LowValuePoolRentalProperties.Amount>
+  <rvctc2.02.14:IncomeTax.Deduction.LowValuePoolOther.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">1</rvctc2.02.14:IncomeTax.Deduction.LowValuePoolOther.Amount>
+  <rvctc2.02.14:IncomeTax.Deduction.LowValuePool.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">11</rvctc2.02.14:IncomeTax.Deduction.LowValuePool.Amount>
+  <rvctc2.02.14:IncomeTax.Deduction.Interest.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">4969</rvctc2.02.14:IncomeTax.Deduction.Interest.Amount>
+  <rvctc2.02.14:IncomeTax.Deduction.Dividend.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">30</rvctc2.02.14:IncomeTax.Deduction.Dividend.Amount>
+  <rvctc2.02.14:IncomeTax.Deduction.GiftDonation.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">0</rvctc2.02.14:IncomeTax.Deduction.GiftDonation.Amount>
+  <rvctc2.02.14:IncomeTax.Deduction.TaxAffairManagement.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">1</rvctc2.02.14:IncomeTax.Deduction.TaxAffairManagement.Amount>
+  <bafpr1.02.12:Expense.DeductionsTotal.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">06165</bafpr1.02.12:Expense.DeductionsTotal.Amount>
+  <rvctc1.02.16:IncomeTax.LossesBroughtForwardPrimaryProduction.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">1</rvctc1.02.16:IncomeTax.LossesBroughtForwardPrimaryProduction.Amount>
+  <rvctc1.02.16:IncomeTax.LossesClaimedPrimaryProduction.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">0</rvctc1.02.16:IncomeTax.LossesClaimedPrimaryProduction.Amount>
+  <rvctc1.02.16:IncomeTax.LossesBroughtForwardNonPrimaryProduction.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">1</rvctc1.02.16:IncomeTax.LossesBroughtForwardNonPrimaryProduction.Amount>
+  <rvctc1.02.16:IncomeTax.LossesClaimedNonPrimaryProduction.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">0</rvctc1.02.16:IncomeTax.LossesClaimedNonPrimaryProduction.Amount>
+  <bafpr1.02.23:Income.Taxable.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">43835</bafpr1.02.23:Income.Taxable.Amount>
+  
+  
+  <rvctc1.02.16:IncomeTax.InvestmentPartnershipOtherSource.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">0</rvctc1.02.16:IncomeTax.InvestmentPartnershipOtherSource.Amount>
+ <rvctc1.02.16:IncomeTax.EligiblePersonalSuperannuationContribution.Indicator contextRef="Context_Duration_ReportingParty">true</rvctc1.02.16:IncomeTax.EligiblePersonalSuperannuationContribution.Indicator>
+  <rvctc1.02.16:IncomeTax.EmploymentBusinessOther.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">0</rvctc1.02.16:IncomeTax.EmploymentBusinessOther.Amount>
+  <rvctc2.02.14:IncomeTax.Deduction.BusinessOther.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">0</rvctc2.02.14:IncomeTax.Deduction.BusinessOther.Amount>    
+  <rvctc2.02.14:IncomeTax.Deduction.ForeignPensionAnnuityIncomeUndeductedPurchasePrice.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">0</rvctc2.02.14:IncomeTax.Deduction.ForeignPensionAnnuityIncomeUndeductedPurchasePrice.Amount>
+  <rvctc2.02.14:IncomeTax.Deduction.ProjectPool.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">1</rvctc2.02.14:IncomeTax.Deduction.ProjectPool.Amount>
+  <bafpr1.02.23:Expense.ForestryManagedInvestmentSchemeDeduction.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">10</bafpr1.02.23:Expense.ForestryManagedInvestmentSchemeDeduction.Amount>
+  <rvctc2.02.14:IncomeTax.Deduction.Election.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">1</rvctc2.02.14:IncomeTax.Deduction.Election.Amount>
+  <rvctc1.02.16:IncomeTax.FamilyTrustDistributionWhereTaxPaid.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">1</rvctc1.02.16:IncomeTax.FamilyTrustDistributionWhereTaxPaid.Amount>
+  <bafpr2.02.09:Income.Interest.EarlyPaymentCredit.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">1.00</bafpr2.02.09:Income.Interest.EarlyPaymentCredit.Amount>
+  <bafpo1.02.23:Assets.OpeningStock.Amount decimals="0" contextRef="Context_Instant_ReportingParty" unitRef="u1">1</bafpo1.02.23:Assets.OpeningStock.Amount>
+  <bafpr2.02.02:Expense.Purchases.AndOtherCosts.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">1</bafpr2.02.02:Expense.Purchases.AndOtherCosts.Amount>
+  <bafpo1.02.23:Assets.ClosingStock.Amount decimals="0" contextRef="Context_Instant_ReportingParty" unitRef="u1">017</bafpo1.02.23:Assets.ClosingStock.Amount>
+  <bafpo7.02.18:Assets.Inventories.ValuationMethod.Code contextRef="Context_Instant_ReportingParty">R</bafpo7.02.18:Assets.Inventories.ValuationMethod.Code>
+  <bafpr1.02.02:Expense.ForeignResidentWithholding.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">1</bafpr1.02.02:Expense.ForeignResidentWithholding.Amount>
+  <bafpr2.02.06:Expense.Operating.EmploymentCostsTotal.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">1</bafpr2.02.06:Expense.Operating.EmploymentCostsTotal.Amount>
+  <emsup.02.02:SuperannuationContribution.EmployerContributions.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">1</emsup.02.02:SuperannuationContribution.EmployerContributions.Amount>
+  <bafpr2.02.16:Expense.Operating.BadDebts.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">1</bafpr2.02.16:Expense.Operating.BadDebts.Amount>
+  <bafpr2.02.00:Expense.Operating.Lease.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">1</bafpr2.02.00:Expense.Operating.Lease.Amount>
+  <bafpr2.02.16:Expense.Operating.Rent.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">1</bafpr2.02.16:Expense.Operating.Rent.Amount>
+  <bafpr2.02.20:Expense.Operating.InterestAustralia.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">1</bafpr2.02.20:Expense.Operating.InterestAustralia.Amount>
+  <bafpr2.02.20:Expense.Operating.InterestForeign.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">1</bafpr2.02.20:Expense.Operating.InterestForeign.Amount>
+  <bafpr1.02.04:Expense.DepreciationandAmortisation.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">2</bafpr1.02.04:Expense.DepreciationandAmortisation.Amount>
+  <bafpr2.02.16:Expense.Operating.MotorVehicle.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">1</bafpr2.02.16:Expense.Operating.MotorVehicle.Amount>
+  <bafpr2.02.04:Expense.Operating.MotorVehicleTypeOrClaimMethod.Code contextRef="Context_Duration_ReportingParty">S</bafpr2.02.04:Expense.Operating.MotorVehicleTypeOrClaimMethod.Code>
+  <bafpr2.02.16:Expense.Operating.RepairsAndMaintenance.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">1</bafpr2.02.16:Expense.Operating.RepairsAndMaintenance.Amount>
+  <bafpr2.02.04:Expense.Operating.Other.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">1</bafpr2.02.04:Expense.Operating.Other.Amount>
+  <bafpr2.02.20:Expense.Operating.BusinessPrimaryProduction.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">-1</bafpr2.02.20:Expense.Operating.BusinessPrimaryProduction.Amount>
+  <bafpr2.02.20:Expense.Operating.BusinessNonPrimaryProduction.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">-1</bafpr2.02.20:Expense.Operating.BusinessNonPrimaryProduction.Amount>
+  <bafpr1.02.02:Expense.CapitalExpenditureSpecifiedAllowableDeduction.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">1</bafpr1.02.02:Expense.CapitalExpenditureSpecifiedAllowableDeduction.Amount>
+  <bafpr1.02.02:Expense.ProjectPoolAllowableDeduction.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">1</bafpr1.02.02:Expense.ProjectPoolAllowableDeduction.Amount>
+  <bafpr1.02.28:Expense.LandcareOperationsAcceleratedDepreciation.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">1</bafpr1.02.28:Expense.LandcareOperationsAcceleratedDepreciation.Amount>
+  <bafpr1.02.04:Income.ReconciliationAdjustmentTotal.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">1501</bafpr1.02.04:Income.ReconciliationAdjustmentTotal.Amount>
+  <bafpr1.02.04:Expense.ReconciliationAdjustments.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">0</bafpr1.02.04:Expense.ReconciliationAdjustments.Amount>
+
+ 
+  <!--DEDUCTIONS :: Context_Duration_ReportingParty_OTHSqNum_1-->
+  <bafpr1.02.04:Expense.DeductibleOther.Text contextRef="Context_Duration_ReportingParty_OTHSqNum_1">Other Deduction 1</bafpr1.02.04:Expense.DeductibleOther.Text>
+  <rvctc2.02.14:IncomeTax.Deduction.FinancialInvestmentOther.Amount decimals="0" contextRef="Context_Duration_ReportingParty_OTHSqNum_1" unitRef="u1">200</rvctc2.02.14:IncomeTax.Deduction.FinancialInvestmentOther.Amount>
+  <rvctc2.02.14:IncomeTax.Deduction.ForeignRentalIncomeOther.Amount decimals="0" contextRef="Context_Duration_ReportingParty_OTHSqNum_1" unitRef="u1">1</rvctc2.02.14:IncomeTax.Deduction.ForeignRentalIncomeOther.Amount>
+  <rvctc2.02.14:IncomeTax.Deduction.UncategorisedOther.Amount decimals="0" contextRef="Context_Duration_ReportingParty_OTHSqNum_1" unitRef="u1">1</rvctc2.02.14:IncomeTax.Deduction.UncategorisedOther.Amount>
+  <bafpr1.02.04:Expense.DeductibleOther.Amount decimals="0" contextRef="Context_Duration_ReportingParty_OTHSqNum_1" unitRef="u1">202</bafpr1.02.04:Expense.DeductibleOther.Amount>
+  
+  <bafpr1.02.04:Income.SmallBusinessEntityNet.Amount decimals="0" contextRef="Context_Duration_ReportingParty" unitRef="u1">0</bafpr1.02.04:Income.SmallBusinessEntityNet.Amount>
+  <bafpr1.02.04:Income.SmallBusinessEntityNet.Amount decimals="0" contextRef="RP.Partnership" unitRef="u1">0</bafpr1.02.04:Income.SmallBusinessEntityNet.Amount>
+  <bafpr1.02.04:Income.SmallBusinessEntityNet.Amount decimals="0" contextRef="RP.Trust" unitRef="u1">0</bafpr1.02.04:Income.SmallBusinessEntityNet.Amount>
+  <bafpr1.02.28:Expense.LandcareOperationsAcceleratedDepreciation.Amount decimals="0" contextRef="RP.PrimaryProduction" unitRef="u1">2900</bafpr1.02.28:Expense.LandcareOperationsAcceleratedDepreciation.Amount>
+  
+</xbrli:xbrl>
+
+            
