@@ -5,8 +5,8 @@ import ReuestParsing
 abn = '78330347529'
 tfn = '43138890'
 tan = '17801003'
-paths = [#'C:\\PyCharmProj\\adoria\\Payload\\5\\CONF-ATO-IITR-SRP-005_Prelodge_Request_01.xml',
-         'C:\\PyCharmProj\\adoria\\Payload\\5\\CONF-ATO-IITR-SRP-005_Prelodge_Request_02.xml' ]
+paths = ['C:\\PyCharmProj\\adoria\\Payload\\17\\CONF-ATO-IITR-SRP-017_Prelodge_Request_01.xml',
+          ]
 for path in paths:
     payload_json_1 = []
     payload_json_2 = []
@@ -140,6 +140,6 @@ for path in paths:
     }
     print payload
     headers = {'Content-type': 'application/json', 'Accept': 'text/plain'}
-    r = requests.post(url, data=json.dumps(payload), headers=headers)
+    #r = requests.post(url, data=json.dumps(payload), headers=headers)
 
-    print r.text
+    #print r.text
